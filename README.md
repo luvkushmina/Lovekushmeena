@@ -4,45 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manthan's Birthday Party</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f9f9f9;
-            color: #333;
-        }
-        header {
-            background-color: #ffcc00;
-            padding: 20px;
-        }
-        h1 {
-            color: #ff5733;
-        }
-        .content {
-            padding: 20px;
-        }
-        .cake-image {
-            width: 300px;
-            height: auto;
-            margin: 20px auto;
-        }
-        footer {
-            background-color: #ffcc00;
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Manthan's Birthday Party 🎉</h1>
-    </header>
-    <div class="content">
-        <p>Welcome to the celebration! Join us on <strong>29th March</strong> for an unforgettable day filled with fun, joy, and laughter. 🎂</p>
-        <img src="https://via.placeholder.com/300x200.png?text=Birthday+Cake" alt="Birthday Cake" class="cake-image">
-        <p>Let’s make it a day to remember! 😊</p>
+    <div class="container">
+        <h1>Manthan's Birthday Party!</h1>
+        <p>You’re invited to celebrate Manthan’s special day!</p>
+        <div class="details">
+            <h2>Event Details</h2>
+            <p><strong>Date:</strong> April 1, 2025</p>
+            <p><strong>Time:</strong> 6:00 PM - 9:00 PM</p>
+            <p><strong>Location:</strong> 123 Celebration Lane, Party Town</p>
+            <p><strong>Dress Code:</strong> Party Casual</p>
+        </div>
+        <div class="rsvp">
+            <h2>RSVP</h2>
+            <p>Please let us know if you can make it by March 30, 2025!</p>
+            <p>Contact: <a href="mailto:party@manthan.com">party@manthan.com</a></p>
+        </div>
     </div>
-    <footer>
-        <p>&copy; 2025 Manthan's Birthday Party. All rights reserved.</p>
-    </footer>
 </body>
 </html>
